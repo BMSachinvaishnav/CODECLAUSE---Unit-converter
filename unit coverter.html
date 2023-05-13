@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><center>Unit Converter</center><</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="UC.css">
+    <link rel="stylesheet" href=""https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="ui.png" style="width: 100px%">
+        <div class="content">
+            <h2>Unit Converter</h2><br>
+            <p><u>Note:</u>  Give valid input .</p><br>
+            <label>Enter Your Unit to convert.</label><br>
+            <input type="number" id="num">
+            <select id="unit">
+                <option>cm</option>
+                <option>km</option>
+                <option>m</option>
+                <option>gram</option>
+                <option>kg</option>
+            </select><br><br>
+            <label>Choose a unit to convert into:</label>
+            <select id="to_unit">
+                <option>cm</option>
+                <option>km</option>
+                <option>m</option>
+                <option>gram</option>
+                <option>kg</option>
+            </select><br><br>
+            <button type="submit" id="button" onclick=cal()>Convert</button>
+            <p id="para"></p>
+        </div>
+    </div>
+</body>
+
+</html>
+
